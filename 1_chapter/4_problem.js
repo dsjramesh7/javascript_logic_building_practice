@@ -1,3 +1,29 @@
+let time = 20;
+if (time < 12) {
+  console.log("Good morning!");
+} else if (time < 18) {
+  console.log("Good afternoon!");
+} else {
+  console.log("Good evening!");
+}
+
+function check(num) {
+  if (num < 0) {
+    console.log(`${num} is a negative number`);
+  } else if (num > 0) {
+    console.log(`${num} is a positive number`);
+  } else if (num === 0) {
+    console.log(`${num} is a equal to zero`);
+  } else {
+    console.log(`${num} is a invalid input`);
+  }
+}
+
+check(12);
+check(0);
+check(-123);
+check("sadfs");
+
 const dictionary = {
   serendipity:
     "The occurrence of events by chance in a happy or beneficial way.",
