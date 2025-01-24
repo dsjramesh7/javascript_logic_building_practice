@@ -8,14 +8,14 @@ if (time < 12) {
 }
 
 function check(num) {
-  if (num < 0) {
-    console.log(`${num} is a negative number`);
+  if (typeof num !== "number") {
+    console.log(`${num} is an invalid input. Please enter a number.`);
+  } else if (num < 0) {
+    console.log(`${num} is a negative number.`);
   } else if (num > 0) {
-    console.log(`${num} is a positive number`);
-  } else if (num === 0) {
-    console.log(`${num} is a equal to zero`);
+    console.log(`${num} is a positive number.`);
   } else {
-    console.log(`${num} is a invalid input`);
+    console.log(`${num} is equal to zero.`);
   }
 }
 
