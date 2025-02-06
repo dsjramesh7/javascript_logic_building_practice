@@ -16,4 +16,4 @@ function added(value) {
 }
 
 added("hello"); // 0hello
-added(1); // number ayega
+added(1); // number ayega 
