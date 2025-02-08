@@ -75,3 +75,25 @@ function reverseString(str) {
 reverseString("kirmada");
 
 // 48
+function largestNumber(arr) {
+  let max = 0;
+  for (let i = 0; i < arr.length; i++) {
+    if (arr[i] > arr[max]) {
+      max = i;
+    }
+  }
+  return arr[max];
+}
+console.log(largestNumber([23, 45, 112, 567, 34, 696, 78]));
+
+// 49
+function kebabCase(str) {
+  return str.split(" ").join("-");
+}
+console.log(kebabCase("what up everybody"));
+
+// 50
+function greet(name) {
+  console.log(`${name} hello world`);
+}
+greet("yo");
