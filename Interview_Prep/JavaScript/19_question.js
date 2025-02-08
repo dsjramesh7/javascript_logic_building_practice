@@ -58,8 +58,8 @@
 
 // 40
 const arr1 = [12, 14, 23, 34];
-const newArr = [...arr1];
-console.log(newArr);
+// const newArr = [...arr1];
+// console.log(newArr);
 // or
 const newArrrrr = [];
 arr1.forEach((eachElement) => {
